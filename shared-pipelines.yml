@@ -12,9 +12,9 @@ parameters:
   - name: ProjectName
     displayName: Project Name
     type: string
-    default: shared-Project1
+    default: Project1
     values:
-      - shared-Project1
+      - Project1
   - name: Shared Parameter
     displayName: Shared Parameter
     type: string
