@@ -15,6 +15,13 @@ parameters:
     default: shared-Project1
     values:
       - shared-Project1
+  - name: Shared Parameter
+    displayName: Shared Parameter
+    type: string
+    default: shared-paramterValue1
+    values:
+      - shared-paramterValue1
+      - shared-paramterValue2
       
 stages:
 - stage: build
