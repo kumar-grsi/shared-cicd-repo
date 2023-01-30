@@ -8,7 +8,14 @@
 
 #pool:
 #  vmImage: ubuntu-latest
-
+parameters:
+  - name: ProjectName
+    displayName: Project Name
+    type: string
+    default: shared-Project1
+    values:
+      - shared-Project1
+      
 stages:
 - stage: build
   jobs:
